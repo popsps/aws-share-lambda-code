@@ -1,43 +1,43 @@
-//{
-//  "compilerOptions": {
-//    "target": "ESNext",
-//    "module": "NodeNext",
-//    "lib": [
-//      "es2020",
-//      "dom"
-//    ],
-////    "declaration": true,
-//    "strict": true,
-//    "noImplicitAny": true,
-//    "strictNullChecks": true,
-//    "noImplicitThis": true,
-//    "alwaysStrict": true,
-//    "noUnusedLocals": false,
-//    "noUnusedParameters": false,
-//    "noImplicitReturns": true,
-//    "noFallthroughCasesInSwitch": false,
-//    "inlineSourceMap": true,
-//    "inlineSources": true,
-//    "experimentalDecorators": true,
-//    "strictPropertyInitialization": false,
-//    "esModuleInterop": true,
-//    "isolatedModules": true,
-//    "forceConsistentCasingInFileNames": true,
-//    "preserveConstEnums": true,
-//    "typeRoots": [
-//      "./node_modules/@types"
-//    ],
-//    "paths": {
-//      "/opt/nodejs/util": [
-//        "/layers/utilB/nodejs/util"
-//      ]
-//    }
-//  },
-//  "exclude": [
-//    "node_modules",
-//    "cdk.out"
-//  ]
-//}
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "esnext",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "preserveConstEnums": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "/opt/nodejs/util": [
+        "/layers/utilB/nodejs/util"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "cdk.out"
+  ]
+}
 //{
 //  "compilerOptions": {
 //    "target": "esnext",

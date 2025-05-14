@@ -1,4 +1,5 @@
 import { APIGatewayProxyCallback, APIGatewayProxyEvent, APIGatewayProxyResult, Context } from 'aws-lambda';
+// @ts-ignore
 import { v4 as uuidv4 } from 'uuid';
 import { getRandomMessage } from "../utilityA/utility1";
 
