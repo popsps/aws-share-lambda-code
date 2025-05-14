@@ -1,0 +1,43 @@
+{
+  "httpMethod": "GET",
+  "path": "/test",
+  "body": null,
+  "resource": "/test",
+  "headers": {},
+  "multiValueHeaders": {},
+  "isBase64Encoded": false,
+  "pathParameters": null,
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "accountId": "test",
+    "apiId": "test",
+    "authorizer": null,
+    "protocol": "HTTP/1.1",
+    "httpMethod": "GET",
+    "identity": {
+      "accessKey": null,
+      "accountId": null,
+      "apiKey": null,
+      "apiKeyId": null,
+      "caller": null,
+      "clientCert": null,
+      "cognitoAuthenticationProvider": null,
+      "cognitoAuthenticationType": null,
+      "cognitoIdentityId": null,
+      "cognitoIdentityPoolId": null,
+      "principalOrgId": null,
+      "sourceIp": "127.0.0.1",
+      "user": null,
+      "userAgent": null,
+      "userArn": null
+    },
+    "path": "/test",
+    "stage": "test",
+    "requestId": "test",
+    "requestTimeEpoch": 1234567890,
+    "resourceId": "test",
+    "resourcePath": "/test"
+  }
+}
